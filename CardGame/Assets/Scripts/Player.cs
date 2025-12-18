@@ -299,8 +299,6 @@ public class Player : NetworkBehaviour
         Debug.Log("Game end to be handled1!");
         yield return new WaitForSeconds(3f);
         var gamestartorend = new GameStartEnd(false);
-        // gamestartorend.isStart = false;
-        // string info = "{"isStart":false}";
         var info = JsonConvert.SerializeObject(gamestartorend);
         Debug.Log("check startend string check now:"+GameStartOrEnd.ToString());
         if(info[info.Count()-1] != '}') 
@@ -313,7 +311,6 @@ public class Player : NetworkBehaviour
     }
     void Update()
     {
-        // if(HasStateAuthority)Debug.Log("turnCount:"+turnCount);
         if(Runner == null) return;
         if(!start && Runner.ActivePlayers.Count() == 2 && isMaster && HasStateAuthority)
         {
@@ -415,7 +412,7 @@ public class Player : NetworkBehaviour
     }
     public void StartTimer()
     {
-        tickTimer = TickTimer.CreateFromSeconds(Runner,20f);
+        tickTimer = TickTimer.CreateFromSeconds(Runner,31f);
     }
     public void SpawnCardFromDeck()
     {
