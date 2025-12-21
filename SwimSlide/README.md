@@ -8,5 +8,5 @@ You can download and play the game from itch link from below 👇
 
  
 
- 	https://thapashvinr07.itch.io/metro-runner
+ 	https://thapashvinr07.itch.io/swimslide
 
