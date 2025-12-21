@@ -60,7 +60,7 @@ public class GameMgr : MonoBehaviour
         #else
             Debug.unityLogger.logEnabled = false;
         #endif
-        Debug.unityLogger.logEnabled = false;
+        // Debug.unityLogger.logEnabled = false;
     }
     // Start is called before the first frame update
     void Start()
