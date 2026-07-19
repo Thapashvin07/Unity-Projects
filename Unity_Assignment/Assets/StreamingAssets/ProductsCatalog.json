@@ -1,0 +1,185 @@
+{
+  "products": 
+  [
+    { 
+      "productId": "w001",
+      "name": "Steel Watch",
+      "category": "Watches",
+      "subcategory": "Male",
+      "description": "A timeless stainless steel watch with a leather strap.", 
+      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/steelwatch.png", 
+      "modelCategory": "Watch" 
+    },
+    { 
+      "productId": "w002", 
+      "name": "Gold Watch", 
+      "category": "Watches", 
+      "subcategory": "Female", 
+      "description": "Gold watch with mother-of-pearl dial.", 
+      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/goldwatch.png", 
+      "modelCategory": "Watch" 
+    },
+    { 
+      "productId": "w003", 
+      "name": "Sport Watch", 
+      "category": "Watches", 
+      "subcategory": "Kids-Boy", 
+      "description": "Durable sport watch designed for active kids.", 
+      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/sportswatch.png", 
+      "modelCategory": "Watch" 
+    },
+    { 
+      "productId": "w004", 
+      "name": "Kids Watch", 
+      "category": "Watches", 
+      "subcategory": "Kids-Girl", 
+      "description": "Colorful pastel watch with a cartoon dial.", 
+      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/kidswatch.png", 
+      "modelCategory": "Watch" 
+    },
+    { 
+      "productId": "w005", 
+      "name": "Leather Ladies Watch", 
+      "category": "Watches", 
+      "subcategory": "Female", 
+      "description": "Slim minimalist design with mesh strap.", 
+      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/ladieswatch.png", 
+      "modelCategory": "Watch" 
+    },
+    { 
+      "productId": "c001", 
+      "name": "Men's Hoodies", 
+      "category": "Clothes", 
+      "subcategory": "Male", 
+      "description": "Classic brown hoodie, casual fit.", 
+      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/hoodies.png", 
+      "modelCategory": "Clothing" 
+    },
+    { 
+      "productId": "c002", 
+      "name": "Women's Casual Top", 
+      "category": "Clothes", 
+      "subcategory": "Female", 
+      "description": "Elegant casual top.", 
+      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/w_tops.png", 
+      "modelCategory": "Clothing" 
+    },
+    { 
+      "productId": "c003", 
+      "name": "Boys Tshirt", 
+      "category": "Clothes", 
+      "subcategory": "Kids-Boy", 
+      "description": "Kids Boy t-shirt with printed design.", 
+      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/tshirt.png", 
+      "modelCategory": "Clothing" 
+    },
+    { 
+      "productId": "c004", 
+      "name": "Girls Jumper", 
+      "category": "Clothes", 
+      "subcategory": "Kids-Girl", 
+      "description": "Light cotton summer dress with floral pattern.", 
+      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/girl_dress.png", 
+      "modelCategory": "Clothing" 
+    },
+    { 
+      "productId": "j001", 
+      "name": "Mens Ring", 
+      "category": "Jewellery", 
+      "subcategory": "Male", 
+      "description": "Bold sterling silver men's ring.", 
+      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/ring.png", 
+      "modelCategory": "Jewellery" 
+    },
+    { 
+      "productId": "j002", 
+      "name": "Diamond Stud", 
+      "category": "Jewellery", 
+      "subcategory": "Female", 
+      "description": "Classic diamond stud earrings in white gold.", 
+      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/stud.png", 
+      "modelCategory": "Jewellery" 
+    },
+    { 
+      "productId": "j003", 
+      "name": "Mens Bracelet", 
+      "category": "Jewellery", 
+      "subcategory": "Male", 
+      "description": "Lightweight Stainless steel bracelet.", 
+      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/bracelet.png", 
+      "modelCategory": "Jewellery" 
+    },
+    { 
+      "productId": "j004", 
+      "name": "Girls Charm Anklet", 
+      "category": "Jewellery", 
+      "subcategory": "Kids-Girl", 
+      "description": "Colorful charm adjustable anklets.", 
+      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/anklet.png", 
+      "modelCategory": "Jewellery" 
+    },
+    { 
+      "productId": "w006", 
+      "name": "Sporty Pro", 
+      "category": "Watches", 
+      "subcategory": "Male", 
+      "description": "Cool and Sporty watch for Male.", 
+      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/steelwatch.png", 
+      "modelCategory": "Watch" 
+    },
+    { 
+      "productId": "c005", 
+      "name": "Men's Formal Shirt", 
+      "category": "Clothes", 
+      "subcategory": "Male", 
+      "description": "Slim-fit formal shirt, wrinkle resistant.", 
+      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/shirt.png", 
+      "modelCategory": "Clothing" 
+    },
+    { 
+      "productId": "c006", 
+      "name": "Women's Gown", 
+      "category": "Clothes", 
+      "subcategory": "Female", 
+      "description": "Floor-length gown with colorful detail.", 
+      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/w_tops.png", 
+      "modelCategory": "Clothing" 
+    },
+    { 
+      "productId": "j005", 
+      "name": "NeckLace Set", 
+      "category": "Jewellery", 
+      "subcategory": "Female", 
+      "description": "Grand Function Wear Necklace Set.", 
+      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/necklace.png",
+      "modelCategory": "Jewellery" 
+    },
+    { 
+      "productId": "j006", 
+      "name": "Pearl Necklace", 
+      "category": "Jewellery", 
+      "subcategory": "Female", 
+      "description": "Classic pearl necklace.", 
+      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/pearl.png", 
+      "modelCategory": "Jewellery" 
+    },
+    { 
+      "productId": "c007", 
+      "name": "Boys Winter Hoodie", 
+      "category": "Clothes", 
+      "subcategory": "Kids-Boy", 
+      "description": "Warm and stylish hoodie for winter.", 
+      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/hoodies.png", 
+      "modelCategory": "Clothing" 
+    },
+    { 
+      "productId": "c008",
+      "name": "Girls Party Frock", 
+      "category": "Clothes", 
+      "subcategory": "Kids-Girl", 
+      "description": "Sparkly party frock for girls.", 
+      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/w_tops.png", 
+      "modelCategory": "Clothing" 
+    }
+  ]
+}
