@@ -26,7 +26,7 @@ A small overview about the project setup:
 * The view button in detail panel opens the 3dModel and ModelGestureController script handles rotation, scaling and reset of the model using touch input.
 * A camera specially for rendering 3d model has been created with a separate layer ProductView and a render texture of 512x512 has been used for that camera.
 * ProductSearch used a very standard approach of searching with matching name and category.
-* Downloaded icons and uploaded to my GitHub and downloading it from there using TextureCacher.
+* Downloaded icons and uploaded to my GitHub and downloading it from there using TextureCacher.(/Images outside the Unity\_Assignment folder)
 * Have checked in different resolutions and aspects and in several android simulators and it works 90% without issue.
 
 
