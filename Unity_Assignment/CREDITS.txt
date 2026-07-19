@@ -1,0 +1,24 @@
+		CREDITS
+=========================
+
+Third-party assets used in this project. Fill in the actual source/licence for each model you
+used before submitting.
+
+3D Models
+---------
+- Watch model: "Digital Watch" (https://skfb.ly/oxPtV) by SpatialNeglect is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+- Clothing/mannequin model: https://assetstore.unity.com/packages/3d/props/clothing/campus-comeback-set-genies-avatar-clothing-pack-350376#publisher
+
+- Jewellery model: https://sketchfab.com/
+
+Fonts
+-----
+- Ostwald Font - https://fonts.google.com/
+-----
+Models and UI assets from Asset Store :
+Space Game GUI kit
+Campus Comeback Set - Genies Avatar Clothing Pack
+
+
+Several other images used for icons were downloaded from google search which didn't included credits.
