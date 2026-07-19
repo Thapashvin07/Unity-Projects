@@ -27,6 +27,7 @@ A small overview about the project setup:
 * A camera specially for rendering 3d model has been created with a separate layer ProductView and a render texture of 512x512 has been used for that camera.
 * ProductSearch used a very standard approach of searching with matching name and category.
 * Downloaded icons and uploaded to my GitHub and downloading it from there using TextureCacher.
+* Have checked in different resolutions and aspects and in several android simulators and it works 90% without issue.
 
 
 
@@ -37,8 +38,4 @@ Limitations:
 Couldnt implement ProductSorter and effective Search solution due to time constraint but tried search using conventional method.
 
 Couldnt test with more products like 1000.
-
-
-
-
 
