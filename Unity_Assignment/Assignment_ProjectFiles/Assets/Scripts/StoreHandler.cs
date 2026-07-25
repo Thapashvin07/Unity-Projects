@@ -7,7 +7,7 @@ public class StoreHandler : MonoBehaviour
     [SerializeField] private RecycleScroll recycleScroll;
     [SerializeField] private GameObject emptyMsg;
     //detailproductview tbh
-    [SerializeField] private const int portraitColumns = 2;
+    [SerializeField] private const int portraitColumns = 3;
     [SerializeField] private const int tabletLandscapeColumns = 3;
     [SerializeField] private float tabletAspectThreshold = 1.2f;
     [SerializeField] GameObject notifyFilter;
