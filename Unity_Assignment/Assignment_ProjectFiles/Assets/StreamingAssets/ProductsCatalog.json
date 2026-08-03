@@ -7,8 +7,11 @@
       "category": "Watches",
       "subcategory": "Male",
       "description": "A timeless stainless steel watch with a leather strap.", 
-      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/steelwatch.png", 
-      "modelCategory": "Watch" 
+      "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/steelwatch.png",
+      "modelUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/main/Unity_Assignment/watch.glb",
+      "scale" : {"x":40,"y":40,"z":40},
+      "rotation" : {"x":0,"y":180,"z":0}
+
     },
     { 
       "productId": "w002", 
@@ -17,7 +20,9 @@
       "subcategory": "Female", 
       "description": "Gold watch with mother-of-pearl dial.", 
       "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/goldwatch.png", 
-      "modelCategory": "Watch" 
+      "modelUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/main/Unity_Assignment/watch.glb",
+      "scale" : {"x":40,"y":40,"z":40},
+      "rotation" : {"x":0,"y":180,"z":0}
     },
     { 
       "productId": "w003", 
@@ -26,7 +31,9 @@
       "subcategory": "Kids-Boy", 
       "description": "Durable sport watch designed for active kids.", 
       "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/sportswatch.png", 
-      "modelCategory": "Watch" 
+      "modelUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/main/Unity_Assignment/watch.glb",
+      "scale" : {"x":40,"y":40,"z":40},
+      "rotation" : {"x":0,"y":180,"z":0}
     },
     { 
       "productId": "w004", 
@@ -35,7 +42,9 @@
       "subcategory": "Kids-Girl", 
       "description": "Colorful pastel watch with a cartoon dial.", 
       "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/kidswatch.png", 
-      "modelCategory": "Watch" 
+      "modelUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/main/Unity_Assignment/watch.glb",
+      "scale" : {"x":40,"y":40,"z":40},
+      "rotation" : {"x":0,"y":180,"z":0}
     },
     { 
       "productId": "w005", 
@@ -44,7 +53,9 @@
       "subcategory": "Female", 
       "description": "Slim minimalist design with mesh strap.", 
       "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/ladieswatch.png", 
-      "modelCategory": "Watch" 
+      "modelUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/main/Unity_Assignment/watch.glb",
+      "scale" : {"x":40,"y":40,"z":40},
+      "rotation" : {"x":0,"y":180,"z":0}
     },
     { 
       "productId": "c001", 
@@ -53,7 +64,10 @@
       "subcategory": "Male", 
       "description": "Classic brown hoodie, casual fit.", 
       "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/hoodies.png", 
-      "modelCategory": "Clothing" 
+      "modelUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/main/Unity_Assignment/shirt.glb",
+      "scale" : {"x":5,"y":5,"z":5},
+      "rotation" : {"x":0,"y":180,"z":0} ,
+      "position" : {"x":0,"y":-6.75,"z":1}
     },
     { 
       "productId": "c002", 
@@ -62,7 +76,10 @@
       "subcategory": "Female", 
       "description": "Elegant casual top.", 
       "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/w_tops.png", 
-      "modelCategory": "Clothing" 
+      "modelUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/main/Unity_Assignment/shirt.glb",
+      "scale" : {"x":5,"y":5,"z":5},
+      "rotation" : {"x":0,"y":180,"z":0} ,
+      "position" : {"x":0,"y":-6.75,"z":1}
     },
     { 
       "productId": "c003", 
@@ -71,7 +88,10 @@
       "subcategory": "Kids-Boy", 
       "description": "Kids Boy t-shirt with printed design.", 
       "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/tshirt.png", 
-      "modelCategory": "Clothing" 
+      "modelUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/main/Unity_Assignment/shirt.glb",
+      "scale" : {"x":5,"y":5,"z":5},
+      "rotation" : {"x":0,"y":180,"z":0} ,
+      "position" : {"x":0,"y":-6.75,"z":1}
     },
     { 
       "productId": "c004", 
@@ -80,7 +100,10 @@
       "subcategory": "Kids-Girl", 
       "description": "Light cotton summer dress with floral pattern.", 
       "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/girl_dress.png", 
-      "modelCategory": "Clothing" 
+      "modelUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/main/Unity_Assignment/shirt.glb",
+      "scale" : {"x":5,"y":5,"z":5},
+      "rotation" : {"x":0,"y":180,"z":0} ,
+      "position" : {"x":0,"y":-6.75,"z":1}
     },
     { 
       "productId": "j001", 
@@ -89,7 +112,10 @@
       "subcategory": "Male", 
       "description": "Bold sterling silver men's ring.", 
       "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/ring.png", 
-      "modelCategory": "Jewellery" 
+      "modelUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/main/Unity_Assignment/jewellery.glb",
+      "scale" : {"x":0.008,"y":0.008,"z":0.008},
+      "rotation" : {"x":0,"y":-90,"z":0} ,
+      "position" : {"x":0,"y":-1.25,"z":0}
     },
     { 
       "productId": "j002", 
@@ -98,7 +124,10 @@
       "subcategory": "Female", 
       "description": "Classic diamond stud earrings in white gold.", 
       "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/stud.png", 
-      "modelCategory": "Jewellery" 
+      "modelUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/main/Unity_Assignment/jewellery.glb",
+      "scale" : {"x":0.008,"y":0.008,"z":0.008},
+      "rotation" : {"x":0,"y":-90,"z":0} ,
+      "position" : {"x":0,"y":-1.25,"z":0}
     },
     { 
       "productId": "j003", 
@@ -107,7 +136,10 @@
       "subcategory": "Male", 
       "description": "Lightweight Stainless steel bracelet.", 
       "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/bracelet.png", 
-      "modelCategory": "Jewellery" 
+      "modelUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/main/Unity_Assignment/jewellery.glb",
+      "scale" : {"x":0.008,"y":0.008,"z":0.008},
+      "rotation" : {"x":0,"y":-90,"z":0} ,
+      "position" : {"x":0,"y":-1.25,"z":0}
     },
     { 
       "productId": "j004", 
@@ -116,7 +148,10 @@
       "subcategory": "Kids-Girl", 
       "description": "Colorful charm adjustable anklets.", 
       "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/anklet.png", 
-      "modelCategory": "Jewellery" 
+      "modelUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/main/Unity_Assignment/jewellery.glb",
+      "scale" : {"x":0.008,"y":0.008,"z":0.008},
+      "rotation" : {"x":0,"y":-90,"z":0} ,
+      "position" : {"x":0,"y":-1.25,"z":0}
     },
     { 
       "productId": "w006", 
@@ -125,7 +160,10 @@
       "subcategory": "Male", 
       "description": "Cool and Sporty watch for Male.", 
       "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/steelwatch.png", 
-      "modelCategory": "Watch" 
+      "modelUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/main/Unity_Assignment/watch.glb",
+      "scale" : {"x":40,"y":40,"z":40},
+      "rotation" : {"x":0,"y":180,"z":0} ,
+      "position" : {"x":0,"y":-1.25,"z":0}
     },
     { 
       "productId": "c005", 
@@ -134,7 +172,10 @@
       "subcategory": "Male", 
       "description": "Slim-fit formal shirt, wrinkle resistant.", 
       "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/shirt.png", 
-      "modelCategory": "Clothing" 
+      "modelUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/main/Unity_Assignment/shirt.glb",
+      "scale" : {"x":5,"y":5,"z":5},
+      "rotation" : {"x":0,"y":180,"z":0} ,
+      "position" : {"x":0,"y":-6.75,"z":1}
     },
     { 
       "productId": "c006", 
@@ -143,7 +184,10 @@
       "subcategory": "Female", 
       "description": "Floor-length gown with colorful detail.", 
       "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/w_tops.png", 
-      "modelCategory": "Clothing" 
+      "modelUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/main/Unity_Assignment/shirt.glb",
+      "scale" : {"x":5,"y":5,"z":5},
+      "rotation" : {"x":0,"y":180,"z":0} ,
+      "position" : {"x":0,"y":-6.75,"z":1}
     },
     { 
       "productId": "j005", 
@@ -152,7 +196,10 @@
       "subcategory": "Female", 
       "description": "Grand Function Wear Necklace Set.", 
       "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/necklace.png",
-      "modelCategory": "Jewellery" 
+      "modelUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/main/Unity_Assignment/jewellery.glb",
+      "scale" : {"x":0.008,"y":0.008,"z":0.008},
+      "rotation" : {"x":0,"y":-90,"z":0} ,
+      "position" : {"x":0,"y":-1.25,"z":0}
     },
     { 
       "productId": "j006", 
@@ -161,7 +208,10 @@
       "subcategory": "Female", 
       "description": "Classic pearl necklace.", 
       "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/pearl.png", 
-      "modelCategory": "Jewellery" 
+      "modelUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/main/Unity_Assignment/jewellery.glb",
+      "scale" : {"x":0.008,"y":0.008,"z":0.008},
+      "rotation" : {"x":0,"y":-90,"z":0} ,
+      "position" : {"x":0,"y":-1.25,"z":0}
     },
     { 
       "productId": "c007", 
@@ -170,7 +220,10 @@
       "subcategory": "Kids-Boy", 
       "description": "Warm and stylish hoodie for winter.", 
       "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/hoodies.png", 
-      "modelCategory": "Clothing" 
+      "modelUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/main/Unity_Assignment/shirt.glb",
+      "scale" : {"x":5,"y":5,"z":5},
+      "rotation" : {"x":0,"y":180,"z":0} ,
+      "position" : {"x":0,"y":-6.75,"z":1}
     },
     { 
       "productId": "c008",
@@ -179,7 +232,10 @@
       "subcategory": "Kids-Girl", 
       "description": "Sparkly party frock for girls.", 
       "thumbnailUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/refs/heads/main/Images/w_tops.png", 
-      "modelCategory": "Clothing" 
+      "modelUrl": "https://raw.githubusercontent.com/Thapashvin07/Unity-Projects/main/Unity_Assignment/shirt.glb",
+      "scale" : {"x":5,"y":5,"z":5},
+      "rotation" : {"x":0,"y":180,"z":0} ,
+      "position" : {"x":0,"y":-6.75,"z":1}
     }
   ]
 }

@@ -160,7 +160,7 @@ using UnityEngine.EventSystems;
                 float newPitch = Mathf.Clamp(pitch + pitchDelta, -verticalClampAngle, verticalClampAngle);
                 float appliedDelta = newPitch - pitch;
                 pitch = newPitch;
-                _target.Rotate(Vector3.right, appliedDelta, Space.Self);
+                _target.Rotate(Vector3.right, -appliedDelta, Space.Self);
             }
         }
 
@@ -188,6 +188,13 @@ using UnityEngine.EventSystems;
             {
                 _lastTapTime = now;
             }
+        }
+
+        public void ResetScaleAndRotationWhenDisable()
+        {
+            if(_target == null) return;
+            _target.localRotation = _defaultRotation;
+            _target.localScale = _defaultScale;
         }
 
         private void StartReset()

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.Networking;
-using System;   
+using System;
 
 public class ProductManager : MonoBehaviour
 {
@@ -126,7 +126,10 @@ public class Product
     public string subcategory;
     public string description;
     public string thumbnailUrl;
-    public string modelCategory; // maps to which 3D model prefab to show in viewer
+    public string modelUrl;
+    public Vector3 scale;
+    public Vector3 rotation;
+    public Vector3 position;
 }
 [Serializable]
 public class ProductCatalogue

@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 using System;
-
 public class ModelViewPanelController : MonoBehaviour
 {
      [SerializeField] private GameObject panelRoot;      // the whole overlay panel, inactive by default
@@ -11,7 +10,6 @@ public class ModelViewPanelController : MonoBehaviour
 
     [Header("Stage / spawn")]
     [SerializeField] private Transform modelSpawnPoint; // empty Transform on the ProductViewer layer
-    [SerializeField] private List<ModelCategoryMapping> modelMappings;
     [SerializeField] private GameObject fallbackModelPrefab;
 
     [Header("Gesture input")]
@@ -19,7 +17,9 @@ public class ModelViewPanelController : MonoBehaviour
     [SerializeField] private RectTransform gestureInputArea; // usually same rect as viewerDisplay
 
     private GameObject currentModelInstance;
-    private string currentModelCategory;
+    string curModelUrl;
+    [SerializeField]
+    ModelCacher modelCacher;
     private void Awake()
     {
         closeButton.onClick.AddListener(Close);
@@ -28,18 +28,22 @@ public class ModelViewPanelController : MonoBehaviour
 
     public void Open(Product product)
     {
-        SpawnModel(product.modelCategory);
+        SpawnModel(product.modelUrl,product.scale,product.rotation,product.position);
         panelRoot.SetActive(true);
     }
 
     public void Close()
     {
         panelRoot.SetActive(false);
-        gestureController.UpdateResetLerp();
+        gestureController.ResetScaleAndRotationWhenDisable();
     }
-    private void SpawnModel(string modelCategory)
+    private void SpawnModel(string modelUrl, Vector3 scale, Vector3 rotation, Vector3 position)
     {
-        if (currentModelInstance != null && currentModelCategory == modelCategory)
+        if(string.IsNullOrEmpty(modelUrl))
+        {
+            return;
+        }
+        if (currentModelInstance != null && modelUrl == curModelUrl)
         {
             gestureController.SetTarget(currentModelInstance.transform);
             return;
@@ -51,28 +55,22 @@ public class ModelViewPanelController : MonoBehaviour
             currentModelInstance = null;
         }
 
-        GameObject prefabToSpawn = fallbackModelPrefab;
-        foreach (var mapping in modelMappings)
+        curModelUrl = modelUrl;
+
+        modelCacher.LoadAndSpawnModel(curModelUrl,modelSpawnPoint,(spawnedModel)=>
         {
-            if (mapping.modelCategory == modelCategory)
+            if(spawnedModel == null)
             {
-                prefabToSpawn = mapping.modelPrefab;
-                break;
+                Debug.LogWarning("Failed to load model");
+                return;
             }
-        }
-
-        if (prefabToSpawn == null)
-        {
-            Debug.LogWarning($"[ModelViewerPanelController] No model found for category '{modelCategory}' and no fallback assigned.");
-            return;
-        }
-
-        currentModelInstance = Instantiate(prefabToSpawn, prefabToSpawn.transform.position, prefabToSpawn.transform.rotation, modelSpawnPoint);
-        currentModelCategory = modelCategory;
-
-        SetLayerForGOHierarchy(currentModelInstance, modelSpawnPoint.gameObject.layer);
-
-        gestureController.SetTarget(currentModelInstance.transform);
+            spawnedModel.transform.localPosition = position;
+            spawnedModel.transform.localRotation = Quaternion.Euler(rotation.x,rotation.y,rotation.z);
+            spawnedModel.transform.localScale = scale;
+            currentModelInstance = spawnedModel;
+            SetLayerForGOHierarchy(currentModelInstance, modelSpawnPoint.gameObject.layer);
+            gestureController.SetTarget(currentModelInstance.transform);
+        });
     }
 
     private void SetLayerForGOHierarchy(GameObject obj, int layer)
