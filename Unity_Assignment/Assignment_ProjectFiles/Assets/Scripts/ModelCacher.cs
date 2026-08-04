@@ -14,7 +14,7 @@ public class ModelCacher : MonoBehaviour
 
     private IEnumerator LoadModelRoutine(string modelUrl, Transform parent, Action<GameObject> onSpawned)
     {
-        if (string.IsNullOrEmpty(modelUrl))
+        if (string.IsNullOrEmpty(modelUrl)) 
         {
             Debug.LogWarning("Empty URL no model can be found!");
             onSpawned?.Invoke(null);
